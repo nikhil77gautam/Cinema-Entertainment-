@@ -1,6 +1,6 @@
 import React, { useContext, useEffect, useState } from "react";
 
-//My API Movie Key-http://www.omdbapi.com/?apikey=96e6f622&s= movieName
+//My Movie API:
 export const API_URL = `http://www.omdbapi.com/?apikey=${process.env.REACT_APP_API_KEY}`;
 
 const AppContext = React.createContext();
